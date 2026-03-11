@@ -7,7 +7,12 @@
     "start": "node phonebook.js",
     "phonebook:dev": "nodemon phonebook.js",
     "phonebook:start": "node phonebook.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ui": "rm -rf dist && cd ../part2 && npm run build && cp -r dist ../part3",
+    "deploy": "git add . && git commit -m deploy && git push",
+    "deploy:full": "npm run build:ui && git add . && git commit -m deploy && git push"
+
+
   },
   "keywords": [],
   "author": "",
