@@ -1,0 +1,66 @@
+{}{
+    "editor.accessibilityPageSize": 30,
+    "window.zoomLevel": 2,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.showExecutionMessage": false,
+    "remote.SSH.useLocalServer": false,
+    "code-runner.saveFileBeforeRun": true,
+    "workbench.colorTheme": "Default Dark+",
+    "editor.minimap.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "workbench.iconTheme": "vs-minimal",
+    "vs-kubernetes": {
+        "vscode-kubernetes.kubectl-path-mac": "/Users/sidpadmanabhan/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.helm-path-mac": "/Users/sidpadmanabhan/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+        "vscode-kubernetes.minikube-path-mac": "/Users/sidpadmanabhan/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+    },
+    "editor.tabCompletion": "off",
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.openRepositoryInParentFolders": "never",
+    "extensions.ignoreRecommendations": true,
+    "workbench.editor.enablePreview": false,
+    "editor.fontFamily": "Dank Mono, JetBrains Mono, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
+    "workbench.fontFamily": "Dank Mono, JetBrains Mono, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "chat.commandCenter.enabled": false,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "terminal.integrated.gpuAcceleration": "off",
+    "window.systemColorTheme": "dark",
+    "window.autoDetectColorScheme": false,
+    "window.titleBarStyle": "custom",
+    "vscode_custom_css.imports": [
+        "file:///Users/sidpadmanabhan/Documents/jetbrains.css"
+    ],
+    "workbench.sideBar.location": "right",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "remote.SSH.remotePlatform": {
+        "ilab.cs.rutgers.edu": "linux"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "vscode-pets.theme": "winter",
+    "vscode-pets.throwBallWithMouse": true,
+    "terminal.integrated.commandsToSkipShell": [
+        ""
+    ],
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.useTerminal": true
+}

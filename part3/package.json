@@ -11,8 +11,6 @@
     "build:ui": "rm -rf dist && cd ../part2 && npm run build && cp -r dist ../part3",
     "deploy": "git add . && git commit -m deploy && git push",
     "deploy:full": "npm run build:ui && git add . && git commit -m deploy && git push"
-
-
   },
   "keywords": [],
   "author": "",
@@ -20,7 +18,9 @@
   "description": "",
   "dependencies": {
     "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
+    "mongoose": "^9.3.0",
     "morgan": "^1.10.1"
   }
 }
